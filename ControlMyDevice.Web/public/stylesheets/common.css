@@ -1,0 +1,55 @@
+#user_nav {
+	float: right;
+	text-align: right;
+}
+
+#login-form {
+	width:300px;
+	margin: 0px auto;
+	padding: 50px;
+}
+
+.flash-message {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	color: red;
+}
+
+.page-title {
+	font-size: 20px;
+	text-align: center;
+}
+
+.content {
+	margin-top: 40px;
+	font-size: 18px;
+}
+
+.not-connected {
+	color: red;
+}
+
+.connected {
+	color: green;
+}
+
+.map {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	height: 500px;
+}
+
+.list-result {
+	height: 300px;
+	overflow: auto;
+	border: 1px;
+	border-style: solid;
+	border-color: silver;
+}
+
+.media-result {
+	max-width: 100%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}

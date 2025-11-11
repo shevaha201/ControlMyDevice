@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
+		<div class="page-title">My devices</div>
+	</div>
+	<div class="col-md-2"></div>
+</div>
+<div class="row">
+	<div class="content">
+		<div id="deviceList">
+			<% @devices.each do |device| %>
+	            <div data-device-item data-device-id="<%= device.id %>">
+	            	<div>
+	            		Name: <%= device.name %>
+	            		<span id="connectStatus" class="not-connected">(Not connected)</span>
+	            	</div>
+	            	<div>
+	            		Identitifier: <%= device.identifier %>
+	            	</div>
+	            	<div>
+	            		<%= link_to "Details", device_details_path(device), :class => "btn btn-info" %>
+	            		<button data-command-button data-command-name="remove_device" class="btn btn-danger">Remove</button>
+	            	</div>
+	            	<hr>
+	            </div>
+	    	<% end %> 
+		</div>
+	</div>
+</div>
+
+<script src="/javascripts/plugins/deviceList.js" type="text/javascript"></script>
