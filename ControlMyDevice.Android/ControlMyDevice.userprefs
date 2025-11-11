@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="ControlMyDevice\ControlMyDevice.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.JVDEJFUSS8BQTWV4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ControlMyDevice\RecordVideoActivity.cs">
+    <Files>
+      <File FileName="ControlMyDevice\MainActivity.cs" Line="1" Column="1" />
+      <File FileName="ControlMyDevice\Infrastructure\MessageProcessor.cs" Line="42" Column="42" />
+      <File FileName="ControlMyDevice\Infrastructure\DeviceService.cs" Line="1" Column="1" />
+      <File FileName="ControlMyDevice\Infrastructure\DomainValue\Command.cs" Line="1" Column="1" />
+      <File FileName="ControlMyDevice\Infrastructure\DomainValue\JsonStructure.cs" Line="1" Column="1" />
+      <File FileName="ControlMyDevice\DeviceInfoActivity.cs" Line="27" Column="27" />
+      <File FileName="ControlMyDevice\TakePhotoActivity.cs" Line="46" Column="46" />
+      <File FileName="ControlMyDevice\RecordVideoActivity.cs" Line="18" Column="18" />
+      <File FileName="ControlMyDevice\BaseActivity.cs" Line="27" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Shevaha\Documents\Projects\ControlMyDevice\trunk\ControlMyDevice\RecordVideoActivity.cs" line="76" column="16" />
+      <Breakpoint file="C:\Users\Shevaha\Documents\Projects\ControlMyDevice\trunk\ControlMyDevice\RecordVideoActivity.cs" line="72" column="8" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ControlMyDevice MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
